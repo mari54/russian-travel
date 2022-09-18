@@ -15,14 +15,14 @@
 
 @media screen and (max-width: 1024px) {
     .places__place {
-      column-gap: 32x;
+      column-gap: 32px;
     }
   }
 
   
 @media screen and (max-width: 768px) {
   .places__place {
-    column-gap: 28x;
+    column-gap: 28px;
     margin-bottom: 72px;
   }
 }
