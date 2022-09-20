@@ -13,7 +13,7 @@
     background-position: center;
     margin: 0 auto;
     padding: 0;
-    transition: 2s ease-in;
+    transition: 0.5s ease-in;
 }
 
 .cover__background::before {
@@ -26,7 +26,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    transition: 2s ease-in;
+    transition: 0.5s ease-in;
   }
   
   .cover__background:hover::before {
@@ -53,7 +53,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__background {
-  min-height: 200px;
   justify-content: flex-start;
   }
 }
