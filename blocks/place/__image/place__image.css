@@ -7,20 +7,13 @@
 
 @media screen and (max-width: 1024px) {
     .place__image {
-      width: 42.98vw;
+      width: 49.98vw;
     }
   }
   
   @media screen and (max-width: 768px) {
     .place__image {
-      width: 44.27vw;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .place__image {
-      width: 100vw;
-      margin-bottom: 32px;
+      min-width: 100%;
       object-fit: cover;
     }
   }

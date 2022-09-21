@@ -22,16 +22,15 @@
   
 @media screen and (max-width: 768px) {
   .place {
-    column-gap: 28px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
     margin-bottom: 72px;
   }
 }
   
 @media screen and (max-width: 480px) {
   .place {
-    display: flex;
-    flex-direction: column;
-    row-gap: 0;
     margin-bottom: 50px;
   }
 }
