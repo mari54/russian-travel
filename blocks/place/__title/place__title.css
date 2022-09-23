@@ -4,17 +4,22 @@
     font-weight: 900;
     font-style: normal;
     line-height: 106%;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
 }
 
 @media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 110%;
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 650px) {
     .place__title {
       margin-left: 16px;
-      font-size: 42px;
-      line-height: 110%;
+      max-width: 100%;
     }
   }
   
@@ -26,8 +31,6 @@
   
   @media screen and (max-width: 480px) {
     .place__title {
-      margin: 0 auto;
-      width: calc(100% - 2*16px);
       font-size: 32px;
       line-height: 109%;
     }

@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
   .place__website {
     margin: 0 auto;
     width: calc(100% - 2*16px);

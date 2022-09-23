@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
-      width: calc(100% - 2*24px);
       margin-bottom: 88px;
     }
   }
@@ -16,12 +15,11 @@
   @media screen and (max-width: 768px) {
     .photo-grid {
       max-width: 720px;
-      width: calc(100% - 2*16px);
-      margin-bottom: 64px;
+      width: calc(100% - 2*24px);
     }
   }
   
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 650px) {
     .photo-grid {
       width: calc(100% - 2*16px);
       margin-bottom: 64px;

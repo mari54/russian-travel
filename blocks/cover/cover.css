@@ -14,13 +14,7 @@
     }
   }
 
-  @media screen and (max-width: 768px) {
-    .cover {
-      padding-bottom: 64px;
-    }
-  }
-
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 650px) {
     .cover {
       padding-bottom: 64px;
     }

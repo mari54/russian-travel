@@ -11,15 +11,21 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .places {
     width: calc(100% - 2*24px);
   }
 }
   
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
   .places {
     width: 100%;
     padding-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .places {
+    padding-bottom: 66px;
   }
 }
