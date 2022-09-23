@@ -53,6 +53,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__background {
-  justify-content: flex-start;
+  max-height: 200px;
   }
 }

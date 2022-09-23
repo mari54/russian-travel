@@ -8,6 +8,18 @@
     padding: 0;
 }
 
+@media screen and (max-width: 1020px) {
+  .place__title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .place__title {
+    font-size: 50px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
@@ -16,7 +28,7 @@
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 767px) {
     .place__title {
       margin-left: 16px;
       max-width: 100%;
